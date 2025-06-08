@@ -12,7 +12,10 @@ console.log(myHeros[2]);
 
 // Array Methods
 myArray.push(9)
-myArray.push(3)
+console.log(myArray);
+
+myArray2.push(3)
+console.log(myArray2);
 myArray.pop()
 myArray.unshift(1)
 
@@ -22,7 +25,7 @@ myArray.shift()
 console.log(myArray);
 
 console.log(myArray.includes(10));
-console.log(myArray.indexOf(5));
+console.log(myArray.indexOf(5)); // check index of the element present in array or not
 
 const newArray = myArray.join()
 console.log(newArray);
